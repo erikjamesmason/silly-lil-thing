@@ -1,3 +1,11 @@
+*.zip
+./data
+*.db
+*.db.wal
+*.parquet
+*.csv
+myenv/
+data/raw/checklist_data
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -159,6 +167,6 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# project specific bs
-silly_lil_thing/*.json
-silly_lil_thing/tmp*
+# OSX
+
+.DS_Store
