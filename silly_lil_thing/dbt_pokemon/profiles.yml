@@ -1,0 +1,6 @@
+dbt_pokemon:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ../data/db/pokemon.duckdb

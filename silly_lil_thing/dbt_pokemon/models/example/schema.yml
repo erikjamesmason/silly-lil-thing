@@ -1,0 +1,31 @@
+
+version: 2
+
+models:
+  - name: pokemon_query
+    description: "A starting place for building more logic later"
+    columns:
+      - name: name
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+      - name: url
+        description: "the original api endpoint"
+        tests:
+          - unique
+          - not_null
+
+  - name: pokemon_types
+    description: "same as above but just for pokemon types"
+    columns:
+      - name: name
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+      - name: url
+        description: "the original api endpoint"
+        tests:
+          - unique
+          - not_null

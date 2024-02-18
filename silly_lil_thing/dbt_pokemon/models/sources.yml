@@ -1,0 +1,5 @@
+sources:
+  - name: main
+    tables:
+      - name: pokemon
+      - name: pokemon_types
