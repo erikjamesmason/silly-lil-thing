@@ -1,5 +1,5 @@
 
-version: 2
+version: 3
 
 models:
   - name: pokemon_query
@@ -16,7 +16,7 @@ models:
           - unique
           - not_null
 
-  - name: pokemon_types
+  - name: pokemon_types_query
     description: "same as above but just for pokemon types"
     columns:
       - name: name
