@@ -4,6 +4,7 @@
 *.db.wal
 *.parquet
 *.csv
+*.pkl
 myenv/
 data/raw/checklist_data
 # Byte-compiled / optimized / DLL files
