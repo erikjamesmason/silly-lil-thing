@@ -1,9 +1,9 @@
 from dagster import Definitions, load_assets_from_modules
 
-from .assets import pokemon_assets
+from .assets import pokemon_assets, pokemon_staging
 from .resources import resources
 
-all_assets = load_assets_from_modules([pokemon_assets])
+all_assets = load_assets_from_modules([pokemon_assets, pokemon_staging])
 
 bigquery_resource = resources.bigquery_resource
 duckdb_resource = resources.duckdb_resource
