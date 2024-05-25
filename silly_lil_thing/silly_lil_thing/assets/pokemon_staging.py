@@ -91,7 +91,7 @@ def pokemon_staging_df(
     with duckdb.get_connection() as duck_conn:
         df_pokemon = duck_conn.query(
             """
-                    select * from pokemon_staging)
+                    select * from pokemon_staging
             """
         ).df()
 
